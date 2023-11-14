@@ -28,9 +28,10 @@ function dataUser(event) {
     
 
 
-
+    console.log(finalprice)
     document.getElementById("user_price").innerHTML = finalprice;
 }
+
 
 
 
