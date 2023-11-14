@@ -1,3 +1,5 @@
+function userHasFinishDataCompletion(event) {
+    event.preventDefault();
 //chiedo all'utente quanti kilometri vuole percorrere ela sua età
 let name = document.getElementById("Name").value;
 let distance = document.getElementById("Km_da_Percorrere").value;
@@ -12,11 +14,11 @@ else if (age == Over65) {
     ticketPrice = ticketPrice * 0.6
         ;
 }
-let finalprice = ticketPrice.toFixed(2);
+let finalprice =ticketPrice
 
 
-function userHasFinishDataCompletion(event) {
-    event.preventDefault();
+
+
 
 
     //calcolo il prezzo del biglietto (0,21 al km)
