@@ -28,7 +28,7 @@
 
   </header>
   <main>
-    <form onsubmit="userHasFinishDataCompletion(event)">
+    <form onsubmit="dataUser(event)">
 
       <div class="container">
         <div class="row  ">
@@ -36,7 +36,7 @@
 
           <div class="col-4 mb-3 ">
             <label for="name" class="form-label d-flex justify-content-center">Nome e cognome</label>
-            <input type="Name" class="form-control" id="Name">
+            <input type="Name" class="form-control" id="name">
 
           </div>
           <div class=" col-4 mb-3">
@@ -45,7 +45,7 @@
           </div>
           <div class="col-4 mb-3">
             <label for="fascia_età" class="form-label d-flex justify-content-center">Fascia di età</label>
-            <select class="  form-select" id="age_select">
+            <select id="age_select" class="  form-select" >
 
               <option selected>Seleziona la tua età</option>
               <option value="Minorenne">Minorenne</option>
